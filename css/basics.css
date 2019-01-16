@@ -1,5 +1,40 @@
+
+
 label, select, input{
   width: 150px;
   display: inline-block;
   margin: 5px 0;
+}
+
+h1
+{
+  margin-left: 40%;
+  font-size: 3em;
+  text-shadow: 1px 1px gray;
+}
+
+td
+{
+  font-size: 2em;
+  border: 2px black solid;
+  text-shadow: 1px 1px gray;
+  background-color: yellow;
+
+}
+th
+{
+  font-size: 2em;
+  text-shadow: 1px 1px gray;
+}
+
+td:hover
+{
+  background-color: aquamarine;
+}
+
+table
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
